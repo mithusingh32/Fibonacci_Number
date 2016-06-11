@@ -1,4 +1,4 @@
-#Prints out the howManyPlaces down Fibonacci number
+#Print out the Fiboancci number at any location in the sequnce
 
 def fibNum(howManyPlaces):
     #Fibancci Number
@@ -14,5 +14,3 @@ def fibNum(howManyPlaces):
         first += 1
         
     return int(ls[howManyPlaces])
-
-print fibNum(25)
